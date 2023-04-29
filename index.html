@@ -2,53 +2,38 @@
 <html>
 <head>
 	<title>My Portfolio</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			font-family: Arial, sans-serif;
-		}
-		.container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			height: 100vh;
-			background-color: #f2f2f2;
-		}
-		img {
-			width: 300px;
-			height: auto;
-			margin-bottom: 20px;
-			border-radius: 50%;
-		}
-		p {
-			margin: 0;
-			font-size: 20px;
-			line-height: 1.5;
-			text-align: center;
-		}
-		button {
-			padding: 10px 20px;
-			font-size: 16px;
-			font-weight: bold;
-			border-radius: 5px;
-			border: none;
-			background-color: #5805ff;
-			color: white;
-			cursor: pointer;
-			transition: background-color 0.3s ease;
-		}
-		button:hover {
-			background-color: #48008a;
-		}
-	</style>
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
+	<div class="nav menu">
+		<header>
+			<div class="logo">
+				<div class="circle">
+				  <p class="initials">Tt</p>
+				</div>
+				<h1 class="name">Tiago Teixeira</h1>
+			  </div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="projects.html">Projects</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
 	<div class="container">
 		<img src="images/fotolinkdin.jpeg" alt="Tiago Teixeira">
-		<p>Hello, my name is Tiago Teixeira and I'm....</p>
-		<button>Hire Me</button>
+		<div class="text">
+			<h5>Hi, I'm</h5>
+			<h1>Tiago Teixeira</h1>
+			<p> and I am a second-year student studying Software Development at the Universidade do Minho in Braga, Portugal.
+			My passion for software engineering drives me to constantly learn new skills and develop myself in order to create innovative and world-changing projects.
+			I have created this website as a platform to connect with like-minded individuals and showcase my projects. Thank you for visiting, and I invite you to explore my portfolio and see the projects that I have been working on.</p>
+		</div>
 	</div>
+	<div class="button-container">
+		<button id="hire_button">Contact Me</button>
+	</div>	  
 </body>
 </html>
