@@ -1,0 +1,40 @@
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+   
+   .contact img {
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       transition: transform 0.2s ease-in-out;
+   }
+   
+   .logos {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .logos img:hover {
+       transform: scale(1.1);
+       border: none;
+   }
+
+   .social_contact {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+   }
+
+   .social_contact p {
+    padding: 20px;
+   }   
+
+   /*
+   Changed the top margin because the size of the logos was different
+   */
+   .social_contact:nth-child(3) {
+    margin-top: 18px;
+  }
