@@ -4,26 +4,28 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Portfolio</title>
+    <script src="script.js"></script>
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
 	<div class="nav menu">
 		<header>
 			<div class="logo">
-				<div class="circle">
-				  <p class="initials">Tt</p>
-				</div>
-				<h1 class="name">Tiago Teixeira</h1>
-			  </div>
+                <div class="circle" onclick="window.location.href='index.html';" style="cursor: pointer;">
+					<p class="initials">Tt</p>
+				  </div>
+                <div onclick="window.location.href='index.html';" style="cursor: pointer;"><h1 class="name">Tiago Teixeira</h1></div>
+            </div>
 			<nav>
 				<ul>
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html" class="active">Home</a></li>
 					<li><a href="contact.html">Contact</a></li>
 					<li><a href="projects.html">Projects</a></li>
 				</ul>
 			</nav>
 		</header>
 	</div>
+
 	<div class="container">
 		<img src="images/fotolinkdin.jpeg" alt="Tiago Teixeira">
 		<div class="text">
@@ -31,7 +33,7 @@
 			<div class="name-buttons">
 				<h1>Tiago Teixeira</h1>
 				<div class="button-container">
-					<button id="contact-button">Contact Me</button>
+                    <button id="contact-button" onclick="location.href='contact.html';">Contact Me</button>
 					<button id="cv-button">Download CV</button>
 				</div>
 			</div>
@@ -39,8 +41,10 @@
 			My passion for software engineering drives me to constantly learn new skills and develop myself in order to create innovative and world-changing projects.
 			I have created this website as a platform to connect with like-minded individuals and showcase my projects. Thank you for visiting, and I invite you to explore my portfolio and see the projects that I have been working on.</p>
 		</div>
-		
 	</div>
+
+    <div class="separator"></div>
+
 	
 	<div class="projects">
         <h1>My Projects</h1>
@@ -85,23 +89,26 @@
             <a href="https://github.com/T-yago/LI2" target="_blank">See project on GitHub</a>
         </div>
     </div>
+        <div class="separator"></div>
+
     <div class="contacts">
 		<h1>Contacts</h1>
 		<p>Feel free to contact me by email, LinkedIn or GitHub.</p>
 		    <div class="logos">
                 <div class="social_contact">
-			        <a href="mailto:tiagonunoteixeira@gmail.com"><img src="images/email.png" alt="Email"></a>
+			        <a href="mailto:tiagonunoteixeira@gmail.com" target="_blank"><img src="images/email.png" alt="Email"></a>
                     <p>tiagonunoteixeira@gmail.com</p>
                 </div>
                 <div class="social_contact">
-			        <a href="https://www.linkedin.com/in/tiago-teixeira-b575141a7"><img src="images/linkedin.png" alt="LinkedIn"></a>
+			        <a href="https://www.linkedin.com/in/tiago-teixeira-b575141a7" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
                     <p>https://www.linkedin.com/in/tiago-teixeira-b575141a7</p>
                 </div>
                 <div class="social_contact">
-			        <a href="https://github.com/T-yago"><img src="images/github.png" alt="GitHub"></a>
+                    <a href="https://github.com/T-yago" target="_blank"><img src="images/github.png" alt="GitHub"></a>
                     <p>https://github.com/T-yago</p>
                 </div>
 		</div>
-	</div>	  
+	</div>
+    	  
 </body>
 </html>
