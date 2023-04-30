@@ -1,0 +1,88 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.project {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.project-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.project-header h2 {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
+.project p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.project a {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #5805ff;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.status {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.done {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.in-progress {
+    background-color: #f0ad4e;
+    color: #fff;
+
+}
+
+.project:nth-child(:last-child) {
+   padding-bottom: 10px;
+}
+
+.language {
+    background-color: #007bff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.c {
+    color: #fff;
+}
+
+.java {
+    background-color: #dc3545;
+    color: #fff;
+}
