@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Portfolio</title>
 	<link rel="stylesheet" href="index.css">
 </head>
@@ -26,14 +28,80 @@
 		<img src="images/fotolinkdin.jpeg" alt="Tiago Teixeira">
 		<div class="text">
 			<h5>Hi, I'm</h5>
-			<h1>Tiago Teixeira</h1>
+			<div class="name-buttons">
+				<h1>Tiago Teixeira</h1>
+				<div class="button-container">
+					<button id="contact-button">Contact Me</button>
+					<button id="cv-button">Download CV</button>
+				</div>
+			</div>
 			<p> and I am a second-year student studying Software Development at the Universidade do Minho in Braga, Portugal.
 			My passion for software engineering drives me to constantly learn new skills and develop myself in order to create innovative and world-changing projects.
 			I have created this website as a platform to connect with like-minded individuals and showcase my projects. Thank you for visiting, and I invite you to explore my portfolio and see the projects that I have been working on.</p>
 		</div>
+		
 	</div>
-	<div class="button-container">
-		<button id="hire_button">Contact Me</button>
+	
+	<div class="projects">
+        <h1>My Projects</h1>
+    
+        <div class="project">
+            <div class="project-header">
+                <h2>Process Monitoring</h2>
+                <span class="status in-progress">In progress</span>
+                <span class="language c">C</span>
+
+            </div>
+            <p>Academic project about operative systems that includes a server and tracer programs that act as a "system()" function in C, allowing for the consultation of running and finished processes. The system stores information about the processes, providing details such as the process ID, start and end time, and other relevant data. .</p>
+            <!--//<a href="https://github.com/T-yago/SO" target="_blank">See project on GitHub</a>-->
+        </div>
+        
+        <div class="project">
+            <div class="project-header">
+                <h2><em>Vinted marketplace</em></h2>
+                <span class="status in-progress">In progress</span>
+                <span class="language java">Java</span>
+            </div>
+            <p>This academic project focuses on developing an app that operates similar to <em>Vinted</em>, allowing users to buy and sell items in a marketplace.</p>
+            <!--//<a href="https://github.com/T-yago/SO" target="_blank">See project on GitHub</a>-->
+        </div>
+        
+        <div class="project">
+            <div class="project-header">
+                <h2><em>Uber</em> Database Management System</h2>
+                <span class="status done">Done</span>
+                <span class="language c">C</span>
+            </div>
+            <p> The project involves parsing data from CSV files that contain <em>uber</em> like information about rides, users, and drivers. This information is then cross-referenced to answer specific queries and the resulting data is outputted to files. </p>            <a href="https://github.com/T-yago/LI3" target="_blank">See project on GitHub</a>
+        </div>
+        
+        <div class="project">
+            <div class="project-header">
+                <h2>Stack machine</h2>
+                <span class="status done">Done</span>
+                <span class="language c">C</span>
+            </div>
+            <p>Project made at Universidade do Minho that revolves around a stack machine with multiple operators that accepts multiple data types.</p>
+            <a href="https://github.com/T-yago/LI2" target="_blank">See project on GitHub</a>
+        </div>
+    </div>
+    <div class="contacts">
+		<h1>Contacts</h1>
+		<p>Feel free to contact me by email, LinkedIn or GitHub.</p>
+		    <div class="logos">
+                <div class="social_contact">
+			        <a href="mailto:tiagonunoteixeira@gmail.com"><img src="images/email.png" alt="Email"></a>
+                    <p>tiagonunoteixeira@gmail.com</p>
+                </div>
+                <div class="social_contact">
+			        <a href="https://www.linkedin.com/in/tiago-teixeira-b575141a7"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <p>https://www.linkedin.com/in/tiago-teixeira-b575141a7</p>
+                </div>
+                <div class="social_contact">
+			        <a href="https://github.com/T-yago"><img src="images/github.png" alt="GitHub"></a>
+                    <p>https://github.com/T-yago</p>
+                </div>
+		</div>
 	</div>	  
 </body>
 </html>
