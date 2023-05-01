@@ -35,6 +35,9 @@ body {
     width: 100%;
   }
 
+  .name-buttons h1 {
+    font-family: 'Source Code Pro', monospace;
+  }
 
   .button-container {
     display: flex;
