@@ -331,6 +331,11 @@ nav ul li a.active::after {
   color: #fff;
 }
 
+.haskell {
+  background-color: purple;
+  color: #fff;
+}
+
 /* CONTACTS */
 
 .contacts {
