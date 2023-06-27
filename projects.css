@@ -107,3 +107,13 @@
     background-color: purple;
     color: #fff;
 }
+
+.sql {
+    background-color: orange;
+    color: #fff;
+}
+
+.python {
+    background-color: rgb(59, 59, 212);
+    color: #fff;
+}
