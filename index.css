@@ -346,6 +346,16 @@ nav ul li a.active::after {
   color: #fff;
 }
 
+.dotnet {
+  background-color: #0a434c;
+  color: #fff;
+}
+
+.csharp {
+  background-color: #68217a;
+  color: #fff;
+}
+
 .vue {
   background-color: rgb(0, 89, 0);
   color: #fff;
