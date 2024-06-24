@@ -346,6 +346,11 @@ nav ul li a.active::after {
   color: #fff;
 }
 
+.vue {
+  background-color: rgb(0, 89, 0);
+  color: #fff;
+}
+
 /* CONTACTS */
 
 .contacts {
