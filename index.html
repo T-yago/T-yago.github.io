@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>My Portfolio</title>
-    <script src="script.js"></script>
-	<link rel="stylesheet" href="index.css">
-</head>
-<body>
-	<div class="nav menu">
-		<header>
-			<div class="logo">
-                <div class="circle" onclick="window.location.href='index.html';" style="cursor: pointer;">
-					<p class="initials">Tt</p>
-				  </div>
-                <div onclick="window.location.href='index.html';" style="cursor: pointer;"><h1 class="name">Tiago Teixeira</h1></div>
-            </div>
-			<nav>
-				<ul>
-					<li><a href="index.html" class="active">Home</a></li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="projects.html">Projects</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
 
-	<div class="container">
-		<img src="images/fotolinkedin.png" alt="Tiago Teixeira">
-		<div class="text">
-			<h5>Hi, I'm</h5>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Tiago Teixeira, Artificial Intelligence student at Universidade do Porto specializing in machine learning, deep learning, and software engineering.">
+    <title>Tiago Teixeira, AI & Software Engineer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="nav menu">
+        <header>
+            <div class="logo">
+                <div class="circle" onclick="window.location.href='index.html';" style="cursor: pointer;">
+                    <p class="initials">Tt</p>
+                </div>
+                <div onclick="window.location.href='index.html';" style="cursor: pointer;">
+                    <h1 class="name">Tiago Teixeira</h1>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container">
+        <img src="images/fotolinkedin.png" alt="Tiago Teixeira">
+        <div class="text">
+            <h5>Hi, I'm</h5>
             <div class="name-buttons">
                 <h1>Tiago Teixeira</h1>
                 <div class="button-container">
                     <button id="contact-button" onclick="location.href='contact.html';">Contact Me</button>
                     <a href="images/cv_sc.pdf" download>
                         <button id="cv-button">Download CV</button>
-                      </a>               
-                </div>                
+                    </a>
+                </div>
             </div>
-			<p> and I am in my first year studying Artificial Intelligence at the Universidade do Porto in Porto, Portugal, with a previous bachelor in Software Engineering, conducted in Universidade do Minho, Braga.
-			My passion for software engineering drives me to constantly learn new skills and develop myself in order to create innovative and world-changing projects.
-			I have created this website as a platform to connect with like-minded individuals and showcase my projects. Thank you for visiting, and I invite you to explore my portfolio and see the projects that I have been working on.</p>
-		</div>
-	</div>
+            <p> and I am in my second year studying Artificial Intelligence at the Universidade do Porto in Porto,
+                Portugal, with a previous bachelor in Software Engineering, conducted in Universidade do Minho, Braga.
+                My passion for software engineering drives me to constantly learn new skills and develop myself in order
+                to create innovative and world-changing projects.
+                I have created this website as a platform to connect with like-minded individuals and showcase my
+                projects. Thank you for visiting, and I invite you to explore my portfolio and see the projects that I
+                have been working on.</p>
+        </div>
+    </div>
 
     <div class="separator"></div>
 
-	
-	<div class="projects">
+
+    <div class="projects">
         <h1>My Projects</h1>
 
         <div class="project">
@@ -57,7 +67,10 @@
                 <span class="language python">Python</span>
 
             </div>
-            <p>Reimplementation of the MF-Q and MF-AC algorithms from Mean Field Multi-Agent Reinforcement Learning (Yang et al., 2018), designed for scalable MARL in large populations. Also integrates the VAST framework (Phan et al., 2021) for training in the Gaussian Squeeze environment, and a competitive multi-agend "battle" environment</p>
+            <p>Reimplementation of the MF-Q and MF-AC algorithms from Mean Field Multi-Agent Reinforcement Learning
+                (Yang et al., 2018), designed for scalable MARL in large populations. Also integrates the VAST framework
+                (Phan et al., 2021) for training in the Gaussian Squeeze environment, and a competitive multi-agend
+                "battle" environment</p>
             </p>
             <a href="https://github.com/T-yago/TSI" target="_blank">See project on GitHub</a>
         </div>
@@ -71,7 +84,9 @@
                 <span class="language java">Solr</span>
 
             </div>
-            <p>A Solr-based information retrieval system for medical drug documents, comparing schemeless indexing, boosted schema-based indexing, and hybrid semantic search (MiniLM). The project evaluates performance across multiple queries using precision, recall, accuracy, and robustness metrics.</p>
+            <p>A Solr-based information retrieval system for medical drug documents, comparing schemeless indexing,
+                boosted schema-based indexing, and hybrid semantic search (MiniLM). The project evaluates performance
+                across multiple queries using precision, recall, accuracy, and robustness metrics.</p>
             <a href="https://github.com/T-yago/PRI" target="_blank">See project on GitHub</a>
         </div>
 
@@ -82,7 +97,10 @@
                 <span class="language python">Python</span>
 
             </div>
-            <p>An NLP-based classification system for Emakhuwa news articles, comparing traditional feature extraction (BOW, TF-IDF), character n-grams, and dense vector representations (Word2Vec). The project evaluates model performance between full-text and headline-only approaches using precision, recall, F1-score, and accuracy metrics.</p>
+            <p>An NLP-based classification system for Emakhuwa news articles, comparing traditional feature extraction
+                (BOW, TF-IDF), character n-grams, and dense vector representations (Word2Vec). The project evaluates
+                model performance between full-text and headline-only approaches using precision, recall, F1-score, and
+                accuracy metrics.</p>
             <a href="https://github.com/T-yago/PLN" target="_blank">See project on GitHub</a>
         </div>
 
@@ -93,7 +111,10 @@
                 <span class="language python">Python</span>
 
             </div>
-            <p>Development of a server-client app that allows scalable peer-to-peer downloads of any type of file at a fast rate, securely and for simultaneous clients. Uses partition to ensure users can dowload parts from different sources and get the desired file, even if no one in the network actually has all the packets, and deals with rare packets balance in the network. </p>
+            <p>Development of a server-client app that allows scalable peer-to-peer downloads of any type of file at a
+                fast rate, securely and for simultaneous clients. Uses partition to ensure users can dowload parts from
+                different sources and get the desired file, even if no one in the network actually has all the packets,
+                and deals with rare packets balance in the network. </p>
             <a href="https://github.com/T-yago/CC" target="_blank">See project on GitHub</a>
         </div>
 
@@ -106,8 +127,10 @@
                 <span class="language vue">Vue</span>
 
             </div>
-            <p>Development of a user friendly interface, that follows Nielsen's heuristics to ensure easy comprehension by the targeted public (mechanics)</p>
-            <a href="https://github.com/UMinho-ENGINF-IPM/trabalho-pr-tico-grupo_14" target="_blank">See project on GitHub</a>
+            <p>Development of a user friendly interface, that follows Nielsen's heuristics to ensure easy comprehension
+                by the targeted public (mechanics)</p>
+            <a href="https://github.com/UMinho-ENGINF-IPM/trabalho-pr-tico-grupo_14" target="_blank">See project on
+                GitHub</a>
         </div>
 
         <div class="project">
@@ -117,10 +140,12 @@
                 <span class="language python">Python</span>
 
             </div>
-            <p>Delivery app that employs various supervised and unsupervised techniques to compute the shortest paths, considers transportation modes and their CO2 emissions, and optimizes delivery times while promoting environmental efficiency.</p>
+            <p>Delivery app that employs various supervised and unsupervised techniques to compute the shortest paths,
+                considers transportation modes and their CO2 emissions, and optimizes delivery times while promoting
+                environmental efficiency.</p>
             <a href="https://github.com/T-yago/IA" target="_blank">See project on GitHub</a>
         </div>
-    
+
         <div class="project">
             <div class="project-header">
                 <h2>Process Monitoring</h2>
@@ -128,7 +153,10 @@
                 <span class="language c">C</span>
 
             </div>
-            <p>Academic project about operative systems that includes a server and tracer programs that act as a "system()" function in C, allowing for the consultation of running and finished processes. The system stores information about the processes, providing details such as the process ID, start and end time, and other relevant data.</p>
+            <p>Academic project about operative systems that includes a server and tracer programs that act as a
+                "system()" function in C, allowing for the consultation of running and finished processes. The system
+                stores information about the processes, providing details such as the process ID, start and end time,
+                and other relevant data.</p>
             <a href="https://github.com/T-yago/SO" target="_blank">See project on GitHub</a>
         </div>
 
@@ -139,7 +167,8 @@
                 <span class="language java">Java</span>
 
             </div>
-            <p>A server-client application enabling multiple clients to securely send process execution requests to the server using FIFOs, and receive the corresponding outputs.</p>
+            <p>A server-client application enabling multiple clients to securely send process execution requests to the
+                server using FIFOs, and receive the corresponding outputs.</p>
             <a href="https://github.com/T-yago/SD" target="_blank">See project on GitHub</a>
         </div>
 
@@ -153,7 +182,10 @@
                 <span class="language csharp">C#</span>
                 <span class="language dotnet">ASP.NET Core</span>
             </div>
-            <p>Comprehensive auction platform designed to facilitate online car auctions. It allows users to list cars for auction, place bids on vehicles, and manage auctions and bids with ease. Built with ASP.NET Core and Entity Framework, the platform offers a robust and scalable solution for online car auction businesses.</p>
+            <p>Comprehensive auction platform designed to facilitate online car auctions. It allows users to list cars
+                for auction, place bids on vehicles, and manage auctions and bids with ease. Built with ASP.NET Core and
+                Entity Framework, the platform offers a robust and scalable solution for online car auction businesses.
+            </p>
             <a href="https://github.com/T-yago/LI4" target="_blank">See project on GitHub</a>
         </div>
 
@@ -165,17 +197,19 @@
                 <span class="language python">Python</span>
 
             </div>
-            <p>Modelation and implementation of a gym database in SQL, with subsequent data filling and coherence assurance using Python. </p>
+            <p>Modelation and implementation of a gym database in SQL, with subsequent data filling and coherence
+                assurance using Python. </p>
             <a href="https://github.com/T-yago/Motivation-Gym-Database" target="_blank">See project on GitHub</a>
         </div>
-        
+
         <div class="project">
             <div class="project-header">
                 <h2><em>Vinted marketplace</em></h2>
                 <span class="status done">Done</span>
                 <span class="language java">Java</span>
             </div>
-            <p>This academic project focuses on developing an app that operates similar to <em>Vinted</em>, allowing users to buy and sell items in a marketplace.</p>
+            <p>This academic project focuses on developing an app that operates similar to <em>Vinted</em>, allowing
+                users to buy and sell items in a marketplace.</p>
             <a href="https://github.com/T-yago/POO" target="_blank">See project on GitHub</a>
         </div>
         <div class="project">
@@ -186,7 +220,8 @@
                 <span class="language javascript">JavaScript</span>
                 <span class="language css">Css</span>
             </div>
-            <p>The website you are currently visiting.I am developing it with the purpose of improving my front-end skills.</p>
+            <p>The website you are currently visiting.I am developing it with the purpose of improving my front-end
+                skills.</p>
             <a href="https://github.com/T-yago/T-yago.github.io" target="_blank">See project on GitHub</a>
         </div>
         <div class="project">
@@ -195,16 +230,20 @@
                 <span class="status done">Done</span>
                 <span class="language c">C</span>
             </div>
-            <p> The project involves parsing data from CSV files that contain <em>uber</em> like information about rides, users, and drivers. This information is then cross-referenced to answer specific queries and the resulting data is outputted to files. </p>            <a href="https://github.com/T-yago/LI3" target="_blank">See project on GitHub</a>
+            <p> The project involves parsing data from CSV files that contain <em>uber</em> like information about
+                rides, users, and drivers. This information is then cross-referenced to answer specific queries and the
+                resulting data is outputted to files. </p> <a href="https://github.com/T-yago/LI3" target="_blank">See
+                project on GitHub</a>
         </div>
-        
+
         <div class="project">
             <div class="project-header">
                 <h2>Stack machine</h2>
                 <span class="status done">Done</span>
                 <span class="language c">C</span>
             </div>
-            <p>Project made at Universidade do Minho that revolves around a stack machine with multiple operators that accepts multiple data types.</p>
+            <p>Project made at Universidade do Minho that revolves around a stack machine with multiple operators that
+                accepts multiple data types.</p>
             <a href="https://github.com/T-yago/LI2" target="_blank">See project on GitHub</a>
         </div>
         <div class="project">
@@ -213,32 +252,37 @@
                 <span class="status done">Done</span>
                 <span class="language haskell">Haskell</span>
             </div>
-            <p>I created a "Block Dude" game using Haskell as my first project at Universidade do Minho. It involves moving blocks and climbing to reach higher places and ultimately the objective (the door), and required problem-solving skills and knowledge of functional programming.</p>
+            <p>I created a "Block Dude" game using Haskell as my first project at Universidade do Minho. It involves
+                moving blocks and climbing to reach higher places and ultimately the objective (the door), and required
+                problem-solving skills and knowledge of functional programming.</p>
             <a href="https://github.com/T-yago/LI1" target="_blank">See project on GitHub</a>
         </div>
     </div>
 
-    
+
     <div class="separator"></div>
 
     <div class="contacts">
-		<h1>Contacts</h1>
-		<p>Feel free to contact me by email, LinkedIn or GitHub.</p>
-		    <div class="logos">
-                <div class="social_contact">
-			        <a href="mailto:tiagonunoteixeira@gmail.com" target="_blank"><img src="images/email.png" alt="Email"></a>
-                    <p>tiagonunoteixeira@gmail.com</p>
-                </div>
-                <div class="social_contact">
-			        <a href="https://www.linkedin.com/in/tiago-teixeira-b575141a7" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                    <p>https://www.linkedin.com/in/tiago-teixeira-b575141a7</p>
-                </div>
-                <div class="social_contact">
-                    <a href="https://github.com/T-yago" target="_blank"><img src="images/github.png" alt="GitHub"></a>
-                    <p>https://github.com/T-yago</p>
-                </div>
-		</div>
-	</div>
-    	  
+        <h1>Contacts</h1>
+        <p>Feel free to contact me by email, LinkedIn or GitHub.</p>
+        <div class="logos">
+            <div class="social_contact">
+                <a href="mailto:tiagonunoteixeira@gmail.com" target="_blank"><img src="images/email.png"
+                        alt="Email"></a>
+                <p>tiagonunoteixeira@gmail.com</p>
+            </div>
+            <div class="social_contact">
+                <a href="https://www.linkedin.com/in/tiago-teixeira-b575141a7" target="_blank"><img
+                        src="images/linkedin.png" alt="LinkedIn"></a>
+                <p>https://www.linkedin.com/in/tiago-teixeira-b575141a7</p>
+            </div>
+            <div class="social_contact">
+                <a href="https://github.com/T-yago" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+                <p>https://github.com/T-yago</p>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
