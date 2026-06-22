@@ -324,6 +324,11 @@ nav ul li a.active::after {
   color: #fff;
 }
 
+.ros {
+  background-color: #03019c;
+  color: #fff;
+}
+
 .css {
   background-color: #07d5f4;
   color: #fff;
