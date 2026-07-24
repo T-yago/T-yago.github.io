@@ -86,6 +86,10 @@ body {
   transform: scale(1.05);
 }
 
+.see-projects-link {
+  display: none;
+}
+
 
 
 /* ---------------------------------------------------------------------------*/
@@ -422,10 +426,6 @@ nav ul li a.active::after {
   background-color: #5805ff;
 }
 
-/* ========================================================================
-   RESPONSIVE — Tablet (<=768px)
-   ======================================================================== */
-
 @media (max-width: 768px) {
 
   header {
@@ -515,6 +515,10 @@ nav ul li a.active::after {
     padding: 0 20px;
   }
 
+  .contacts h1 {
+    font-size: 28px;
+  }
+
   .logos {
     flex-direction: column;
     align-items: center;
@@ -532,11 +536,19 @@ nav ul li a.active::after {
   }
 }
 
-/* ========================================================================
+/* 
    RESPONSIVE — Mobile (<=480px)
-   ======================================================================== */
+ */
 
 @media (max-width: 480px) {
+
+  .logo {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+  }
 
   .name {
     font-size: 18px;
@@ -563,6 +575,7 @@ nav ul li a.active::after {
 
   .text p {
     font-size: 15px;
+    margin-top: 16px;
   }
 
   .button-container {
@@ -580,12 +593,66 @@ nav ul li a.active::after {
     padding: 12px 16px;
   }
 
+  .see-projects-link {
+    display: block;
+    width: 100%;
+  }
+
+  .button-container button#see-projects-button {
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+    padding: 12px 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #5805ff;
+    background-color: transparent;
+    color: #5805ff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  }
+
+  .button-container button#see-projects-button:hover {
+    background-color: #5805ff;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  #home-projects,
+  #home-projects-separator {
+    display: none;
+  }
+
   .project-header h2 {
     font-size: 20px;
+  }
+
+  .contacts h1 {
+    font-size: 24px;
+    margin-bottom: 4px;
   }
 
   .contacts img {
     width: 60px;
     height: 60px;
+  }
+
+  .logos {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .social_contact {
+    padding: 6px;
+  }
+
+  .social_contact p {
+    display: none;
+  }
+
+  .social_contact:nth-child(3) {
+    margin-bottom: 0;
   }
 }
